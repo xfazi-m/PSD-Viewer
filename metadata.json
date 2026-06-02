@@ -1,0 +1,8 @@
+{
+  "name": "PSD-Viewer",
+  "description": "Błyskawiczny, minimalistyczny podgląd plików PSD z wykorzystaniem Drag & Drop",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    ""
+  ]
+}

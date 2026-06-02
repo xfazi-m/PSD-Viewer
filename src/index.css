@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-electric: #007AFF;
+  --color-electric-hover: #0066D6;
+}
+
+body {
+  background-color: #f8fafc;
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(210,100%,95%,1) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(220,100%,97%,1) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, hsla(210,100%,95%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(220,100%,92%,1) 0px, transparent 50%);
+  background-attachment: fixed;
+  color: #111827;
+  font-family: var(--font-sans);
+}
